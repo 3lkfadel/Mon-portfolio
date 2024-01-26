@@ -1,0 +1,27 @@
+.deux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.image-container {
+    max-width: 30%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.image-1 {
+    max-width: 100%; /* Utilisez 100% pour que l'image occupe toute la largeur du conteneur */
+    height: auto;
+}
+
+.deux .home-contenue {
+    max-width: 50%;
+    padding: 0 20px;
+    text-align: center; /* Centre le texte à l'intérieur du conteneur */
+}
+.deux .home-contenue p {
+    font-size: 18px; 
+    color: #333; /* Retirez la barre oblique ici */
+}

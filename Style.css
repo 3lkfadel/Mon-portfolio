@@ -1,0 +1,186 @@
+*{
+    font-family: 'popins';
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: #081b29;
+    color: azure ;
+}
+.header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 30px;
+    color: azure;
+    text-decoration: none;
+    font-weight: 600 ;
+}
+
+.nav a {
+    font-size: 18px;
+    color: azure;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.nav a:hover{
+    color: aqua ;
+}
+
+.Home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    margin-bottom: 20px
+}
+
+
+
+.home-contenue{
+    max-width: 600px;
+    margin: 20px 0 40px;
+}
+.home-contenue h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+.home-contenue h3{
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(0, 238, 255);
+}
+.home-contenue p {
+    font-size: 14px;
+    font-weight: 100;
+    margin: 20px 0 40px;
+}
+.home-contenue .btn-intro{
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+    background: transparent;
+}
+
+.btn-intro a {
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    background: rgb(0, 238, 255);
+    border: 2px ;
+    border-radius: 8px;
+    color: aqua;
+}
+.deux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.image-container {
+    max-width: 30%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.image-1 {
+    max-width: 100%; 
+    height: auto;
+}
+
+.deux .home-contenue {
+    max-width: 50%;
+    padding: 0 20px;
+    text-align: center;
+}
+.deux .home-contenue p {
+    font-size: 30px; 
+    color: #333; 
+}
+/* Ajoutez ces styles pour la section "trois" */
+.trois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: #081b29;
+    color: azure;
+    padding: 50px 0;
+}
+
+.trois .image-container {
+    max-width: 30%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.trois .image-2 {
+    max-width: 100%;
+    height: auto;
+}
+
+.trois .text-container {
+    max-width: 50%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.trois h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(0, 238, 255);
+}
+
+.trois p {
+    font-size: 16px;
+    font-weight: 100;
+    margin: 20px 0 40px;
+}
+
+.trois .btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #081b29;
+    color: azure;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons {
+    font-size: 24px;
+}
+
+.social-icons a {
+    color: azure;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.btn-intro {
+    display: inline-flex;
+    padding: 10px 20px;
+    background: rgb(0, 238, 255);
+    border: none;
+    border-radius: 8px;
+    color: aqua;
+    text-decoration: none;
+}
+
+
